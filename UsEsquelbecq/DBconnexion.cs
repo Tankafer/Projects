@@ -23,9 +23,8 @@ namespace UsEsquelbecq
             }
             catch (Exception e)
             {
-                MessageBox.Show("Can not open connection ! ");
+                MessageBox.Show("Can not open connection ! Retry later");
             }
-
         }
     }
 }
